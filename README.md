@@ -33,6 +33,7 @@ Questão 5:
 	https:// Significa que sua API está usando o protocolo HTTP com criptografia
 	minhaapi.com.br é o nome do domínio onde sua api está sendo hospedada.
 	/api/vendas é o local/ subdiretório onde ela está localizada, basicamente o local específico.
+ 
 ============================================================================================
 ATIVIDADE 2
 
@@ -103,4 +104,5 @@ Acoplamento: A validação está diretamente vinculada ao modelo de dados, o que
 
 QUESTÃO 4 – 
 Acontece que por padrão ao usar o DataAnnotation, o .net faz um filtro (action filter) que automaticamente valida a requisição e vê que não a atendeu, devido a invalidades.
+
 ============================================================================================
