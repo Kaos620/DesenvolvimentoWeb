@@ -50,7 +50,10 @@ namespace API_H1.Controllers
         [HttpPost]
         public IActionResult Post([FromBody]AlunoViewModel aluno)
         {
-            Console.WriteLine("treste");
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
 
             if (aluno == null)
             {
